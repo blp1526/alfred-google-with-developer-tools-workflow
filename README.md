@@ -1,6 +1,6 @@
-# Google with Developer Tools Workflow for Alfred
+# Google with Developer Tools Workflow for [Alfred](https://www.alfredapp.com)
 
-You can search by Google, and open Developer Tools by command + option + I.
+You can search by Google, and open Developer Tools automatically by command + option + I.
 
 ## Installation
 
