@@ -50,21 +50,15 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>d</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Google with Developer Tools for</string>
-				<key>withspace</key>
-				<true/>
+				<key>browser</key>
+				<string>com.google.chrome</string>
+				<key>searcher</key>
+				<integer>1635215215</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.systemwebsearch</string>
 			<key>uid</key>
-			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
+			<string>54569EF4-C8F1-42DB-A9BD-F7F590CBE341</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -73,6 +67,10 @@
 			<dict>
 				<key>applescript</key>
 				<string>on alfred_script(q)
+  delay 1
+  tell application "Google Chrome"
+    activate
+  end tell
   tell application "System Events"
     keystroke "i" using {option down, command down}
   end tell
@@ -90,15 +88,21 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>d</string>
+				<key>subtext</key>
 				<string></string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
+				<key>text</key>
+				<string>Search Google with Developer Tools for</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>54569EF4-C8F1-42DB-A9BD-F7F590CBE341</string>
+			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
