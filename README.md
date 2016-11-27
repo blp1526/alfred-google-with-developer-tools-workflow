@@ -12,6 +12,15 @@ Download from [here](https://github.com/blp1526/alfred-google-with-developer-too
 d {query}
 ```
 
+## Configuration
+
+To use your favorite browser,
+
+![alfred_preferences](https://cloud.githubusercontent.com/assets/1040576/20645879/00840b88-b4af-11e6-8390-15d8a738ad89.jpg)
+
+1. Configure object `Default Web Search`, and select your favorite browser
+1. Configure object `Run NSAppleScript`, and update browser name and keystroke
+
 ## Contributing
 
 1. Fork it ( https://github.com/blp1526/alfred-google-with-developer-tools-workflow/fork )
