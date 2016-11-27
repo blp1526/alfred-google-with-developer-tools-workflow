@@ -50,15 +50,21 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
-				<string>com.google.chrome</string>
-				<key>searcher</key>
-				<integer>1635215215</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>d</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Search Google with Developer Tools for</string>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.systemwebsearch</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>54569EF4-C8F1-42DB-A9BD-F7F590CBE341</string>
+			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -88,27 +94,21 @@ end alfred_script</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>d</string>
-				<key>subtext</key>
-				<string></string>
-				<key>text</key>
-				<string>Search Google with Developer Tools for</string>
-				<key>withspace</key>
-				<true/>
+				<key>browser</key>
+				<string>com.google.chrome</string>
+				<key>searcher</key>
+				<integer>1635215215</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
+			<string>alfred.workflow.action.systemwebsearch</string>
 			<key>uid</key>
-			<string>264A09D9-DE34-403A-9524-C67F6525811D</string>
+			<string>54569EF4-C8F1-42DB-A9BD-F7F590CBE341</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>You can search by Google, and open Developer Tools automatically by command + option + I.</string>
 	<key>uidata</key>
 	<dict>
 		<key>264A09D9-DE34-403A-9524-C67F6525811D</key>
